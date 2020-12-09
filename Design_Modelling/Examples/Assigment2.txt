@@ -1,0 +1,10 @@
+Assigment 2
+
+create table Products
+(
+product_id int primary key not null,
+product_name varchar(30) not null,
+quantity numeric(3,2) default 0,
+price money null,
+)
+go
